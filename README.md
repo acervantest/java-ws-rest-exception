@@ -17,7 +17,7 @@ Handling exceptions with Spring Framework and CXF is as simple as:
 - Java 7
 - Maven 3
 
-###tools and technologies###
+#### Tools and Technologies
 
 * JDK 1.7
 * Spring 3.2.0.RELEASE
@@ -48,7 +48,7 @@ Import as *Existing Maven Project* and run it on *Server*.
 - Use the following urls to invoke interface methods using a testing tool:
 
   * DELETE operation, so that you are allowed to delete an object from the list, try to go with an id non-existent so that you can see the custom exception:
-  `http://localhost:8080/restservice/services/studentService/student/{id}`, where {id} es el id for the student to delete.
+  `http://localhost:8080/restservice/services/studentService/student/{id}`, where {id} it´s the student id to be deleted.
   
     * GET operation, so that you are allowed to see all objects in a list, try to go:                  `http://localhost:8080/restservice/services/studentService/student`, you will see all students, by default there is only one.
     
